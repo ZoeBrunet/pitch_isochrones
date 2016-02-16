@@ -48,6 +48,8 @@
 \usepackage{lmodern}
 \usepackage[T1]{fontenc}
 \usepackage[english,francais]{babel}
+\usepackage{multirow}
+\usepackage{hhline}
 
 \newcommand{\nologo}{\setbeamertemplate{logo}{}}
 
@@ -136,13 +138,11 @@
   \frametitle{Quelques chiffres navitia.io}
 
   \begin{itemize}
-  \item Sur 1360 inscrits au service navitia.io, 100 sont des
-    utilisateurs ayant réalisés au moins 1 appels sur les 30 derniers
-    jours. Cela représente environ 7\%\ d'actifs dans la base.
-  \item La fourchette constatée du time to market des réutilisateurs
-    varie entre 3 à 10 mois. Cette donnée devra être validée et
-    approfondie à l'occasion d'une étude qualitative auprès des
-    réutilisateurs.
+  \item Sur 1360 inscrits à navitia.io, 100 ont réalisés au moins
+    1~appel le mois dernier (environ 7\%).
+  \item Time to market des réutilisateurs estimé entre 3~à 10~mois.
+    Cette donnée devra être validée et approfondie à l'occasion d'une
+    étude qualitative auprès des réutilisateurs.
   \end{itemize}
 \end{frame}
 
@@ -170,6 +170,55 @@
 
   TODO: Simulation maquette pour montrer les idées «~question~»,
   «~réponse~», «~navigation~».
+\end{frame}
+
+\section{Environnement}
+
+\begin{frame}
+  \frametitle{Solutions concurrentes}
+
+  TODO
+\end{frame}
+
+\begin{frame}
+  \frametitle{Audience}
+
+  TODO
+\end{frame}
+
+\section{Les pépettes}
+
+\begin{frame}
+  \frametitle{Outillage pour la force de vente}
+
+  TODO: citation de Dorian
+\end{frame}
+
+\begin{frame}
+  \frametitle{Gains de temps en interne sur l'utilisation de navitia
+    grâce à APiHM}
+
+  \centering
+
+  \begin{tabular}{|c|c|c|c|c|}
+    \hline
+    \multirow{2}{*}{Équipe}& \multicolumn{2}{c|}{par
+      semaine}&nombre de&\multirow{2}{*}{Gain\footnote{1j = 7h,
+        1 an = 40 semaines, 202j/an = 1 ETP}}\\
+    \hhline{~--~~}
+    & Avant & Après & personnes &\\
+    \hline
+    Data       &15h &10h & 6 & 171j/an\\
+    Support    & 3h & 1h & 6 &  69j/an\\
+    RO         & 2h & 1h & 8 &  46j/an\\
+    NMP Mobile & 3h &1h30& 4 &  34j/an\\
+    NMP Web    & 1h &40min&6 &  11j/an\\
+    Q\&A       & 2h &2h30& 2 &   6j/an\\
+    \hline
+    \multicolumn{4}{|r|}{Total} &
+    337j/an = 1{,}7 ETP\\
+    \hline
+  \end{tabular}
 \end{frame}
 
 \end{document}
