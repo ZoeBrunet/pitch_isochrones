@@ -117,21 +117,32 @@
 \section{Introduction}
 
 \begin{frame}
-  \frametitle{Introduction}
+  \frametitle{Historique}
 
-  API navitia
-
-  Besoin d'interface, plusieurs essaies, pas de solution satisfaisante
-
-  Une équipe de choc pour résoudre ce problème
+  \begin{description}
+  \item[1998] Obiti.
+  \item[2004] Mise en prodution de NAViTiA pour Transilien.
+  \item[2012] navitia 2 fonctionnel.
+  \item[Juin 2012] Besoin d'une API moderne lors des Hack Days Transilien.
+  \item[Janvier 2013] POC open service navitia.
+  \item[Mai 2013] Utilisation massive de l'open service lors de
+    \emph{Moov' in the City}.
+  \item[Juin 2013] Création du projet navitia.io.
+  \item[Avril 2014] navitia 2 est open source.
+  \item[Janvier 2015] Tests utilisateurs navitia.io.
+  \item[Mars 2015] Projet API SNCF.\pause
+  \item[Aujourd'hui] Toujours pas d'interface pour utilisateur averti.
+  \end{description}
 \end{frame}
 
 \section{L'idée}
 
-\begin{frame}[fragile]
+\begin{frame}
   \frametitle{Utiliser l'API}
   
-  \centering\includegraphics[width=\linewidth]{images/curl}
+  \centering
+  \includegraphics[width=\linewidth]<1>{images/curl}
+  \includegraphics[width=0.5\linewidth]<2>{images/firefox}
 \end{frame}
 
 \begin{frame}
@@ -151,10 +162,10 @@
 
   \begin{description}
   \item[Problématique] Comment réduire les délais de création et de
-    mise sur le marché des produits/services utilisant l'API
-    navitia.io ?
-  \item[Objectifs business] Augmenter les usages de l'API.
-  \item[Buts de la solution] navitia.io companion :
+    mise sur le marché des produits/services utilisant l'API navitia?
+  \item[Objectifs business] Augmenter les usages de l'API, Développer
+    la confiance par l'adoption.
+  \item[Buts de la solution] navitia studio:
     \begin{itemize}
     \item Aider à interroger l'API.
     \item Comprendre la réponse.
@@ -173,11 +184,6 @@
 \end{frame}
 
 \section{Environnement}
-
-\begin{frame}
-  \frametitle{Solutions concurrentes interne/externe}
-
-\end{frame}
 
 \begin{frame}
   \frametitle{Solutions concurrentes interne/externe}
@@ -266,16 +272,20 @@
 \begin{frame}
   \frametitle{Audience}
 
-  TODO
+  Tous les utilisateurs de navitia:
+  \begin{itemize}
+  \item Intégrateurs externes (développeurs, startup, SSII et pure
+    players web).
+  \item En interne:
+    \begin{itemize}
+    \item Équipes techniques (intégrateurs internes, data, RO);
+    \item Support;
+    \item Commercial.
+    \end{itemize}
+  \end{itemize}
 \end{frame}
 
-\section{Les pépettes}
-
-\begin{frame}
-  \frametitle{Outillage pour la force de vente}
-
-  TODO: citation de Dorian
-\end{frame}
+\section{Proposition de valeur}
 
 \begin{frame}
   \frametitle{Gains de temps en interne sur l'utilisation de navitia
@@ -287,7 +297,7 @@
     \hline
     \multirow{2}{*}{Équipe}& \multicolumn{2}{c|}{par
       semaine}&nombre de&\multirow{2}{*}{Gain\footnote{1j = 7h,
-        1 an = 40 semaines, 202j/an = 1 ETP}}\\
+        1 an = 40 semaines, 200j/an = 1 ETP}}\\
     \hhline{~--~~}
     & Avant & Après & personnes &\\
     \hline
@@ -305,15 +315,25 @@
 \end{frame}
 
 \begin{frame}
+  \frametitle{Outillage pour la force de vente}
+
+  TODO: citation de Dorian
+\end{frame}
+
+\begin{frame}
   \frametitle{Avantage concurrentiel}
 
-  
+  TODO
 \end{frame}
+
+\section{Business model}
 
 \begin{frame}
   \frametitle{Business model}
 
   TODO
+
+  contexte eco de navitia.io
 \end{frame}
 
 \section{Organisation}
@@ -321,13 +341,26 @@
 \begin{frame}
   \frametitle{Roadmap}
 
-  TODO
+  TODO image
+
+  3 features (question, réponse, navigation) en parallèle avec cycle:
+  \begin{itemize}
+  \item prototypage;
+  \item tests sur utilisateurs;
+  \item analyse des retours;
+  \item prototypage...
+  \end{itemize}
+
+  Besoins matériels: des ordis, connexion internet, coach
+  développement web front.
 \end{frame}
 
 \begin{frame}
   \frametitle{L'après SWAT}
 
   TODO
+
+  Intégration navitia.io, objectif 3
 \end{frame}
 
 \section{Conclusion}
