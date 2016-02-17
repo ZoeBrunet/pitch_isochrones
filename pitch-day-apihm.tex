@@ -108,13 +108,7 @@
   \titlepage
 \end{frame}
 
-\begin{frame}%%[allowframebreaks]
-  \frametitle{Table des matières}
-  \tableofcontents[hideallsubsections]
-  %% You might wish to add the option [pausesections]
-\end{frame}
-
-\section{Introduction}
+\section{L'idée}
 
 \begin{frame}
   \frametitle{Présentation}
@@ -127,24 +121,20 @@
 \end{frame}
 
 \begin{frame}
-  \frametitle{Historique}
+  \frametitle{Audience}
 
-  \begin{description}
-  \item[1998] Obiti.
-  \item[2004] Mise en prodution de NAViTiA pour Transilien.
-  \item[2012] navitia 2 fonctionnel.
-  \item[Juin 2012] Besoin d'une API moderne lors des Hack Days Transilien.
-  \item[Janvier 2013] POC open service navitia.
-  \item[Mai 2013] Utilisation massive de l'open service lors de
-    \emph{Moov' in the City}.
-  \item[Juin 2013] Création du projet navitia.io.
-  \item[Avril 2014] navitia 2 est open source.
-  \item[Janvier 2015] Tests utilisateurs navitia.io.
-  \item[Mars 2015] Projet API SNCF.
-  \end{description}
+  Les utilisateurs de navitia:
+  \begin{itemize}
+  \item Intégrateurs externes (développeurs, startup, SSII et pure
+    players web).
+  \item En interne:
+    \begin{itemize}
+    \item Équipes techniques (intégrateurs internes, data, RO);
+    \item Support;
+    \item Commercial.
+    \end{itemize}
+  \end{itemize}
 \end{frame}
-
-\section{L'idée}
 
 \begin{frame}
   \frametitle{Utiliser l'API}
@@ -152,18 +142,6 @@
   \centering
   \includegraphics[width=\linewidth]<1>{images/curl}
   \includegraphics[width=0.5\linewidth]<2>{images/firefox}
-\end{frame}
-
-\begin{frame}
-  \frametitle{Quelques chiffres navitia.io}
-
-  \begin{itemize}
-  \item Sur 1360 inscrits à navitia.io, 100 ont réalisés au moins
-    1~appel le mois dernier (environ 7\%).
-  \item Time to market des réutilisateurs estimé entre 3~à 10~mois.
-    Cette donnée devra être validée et approfondie à l'occasion d'une
-    étude qualitative auprès des réutilisateurs.
-  \end{itemize}
 \end{frame}
 
 \begin{frame}
@@ -266,31 +244,18 @@
   \end{itemize}
 \end{frame}
 
-\begin{frame}
-  \frametitle{Audience}
-
-  Tous les utilisateurs de navitia:
-  \begin{itemize}
-  \item Intégrateurs externes (développeurs, startup, SSII et pure
-    players web).
-  \item En interne:
-    \begin{itemize}
-    \item Équipes techniques (intégrateurs internes, data, RO);
-    \item Support;
-    \item Commercial.
-    \end{itemize}
-  \end{itemize}
-\end{frame}
-
 \section{Proposition de valeur}
 
 \begin{frame}
   \frametitle{Améliorer la productivité des collaborateurs dans
     l'intégration et le débogage de navitia}
 
-  \centering Gains de temps en interne sur l'utilisation de navitia
+  Aide à la formation des nouveaux arrivants.
+
+  Gains de temps en interne sur l'utilisation de navitia
   grâce à APiHM
   \vfill
+  \centering
   \begin{tabular}{|c|c|c|c|c|}
     \hline
     \multirow{2}{*}{Équipe}& \multicolumn{2}{c|}{par
@@ -304,7 +269,7 @@
     RO         & 2h & 1h & 8 &  46j/an\\
     NMP Mobile & 3h &1h30& 4 &  34j/an\\
     NMP Web    & 1h &40min&6 &  11j/an\\
-    Q\&A       & 2h &2h30& 2 &   6j/an\\
+    Q\&A       & 2h &1h30& 2 &   6j/an\\
     \hline
     \multicolumn{4}{|r|}{Total} &
     337j/an = 1{,}7 ETP\\
@@ -324,8 +289,8 @@
 \begin{frame}
   \frametitle{Avantage concurrentiel}
 
-  Proposer des services nous permettant de nous différencer de la
-  concurrence, aujourd'hui aucun concurrents directs ne proposent des
+  Proposer des services nous permettant de nous différencier de la
+  concurrence, aujourd'hui aucun concurrent direct ne propose des
   outils d'aide à la compréhension ou au prototypage aussi abouti que
   le projet APiHM.
 \end{frame}
@@ -339,12 +304,18 @@
   intégrer dans l'offre de service navitia.io. Il vient alimenter le
   business model par la mise à disposition ou la vente de services
   additionnels.
+
+  Freemium, paliers de consomation, accès aux services.
+
+  Gains internes.
 \end{frame}
 
 \section{Organisation}
 
 \begin{frame}
   \frametitle{Roadmap}
+
+  Mixer UX et Agile:
 
   {\centering\includegraphics[width=0.7\linewidth]{images/roadmap}
 
@@ -375,7 +346,7 @@
   \item réaliste;
   \item utile;
   \item par une équipe pluridisciplinaire;
-  \item intégré naturellement à Kisio Digital.
+  \item intégré rapidemnt à Kisio Digital.
   \end{itemize}
 \end{frame}
 
